@@ -36,4 +36,16 @@ int main(void)
 	std::cout << "post iter"<< std::endl;
 	for (size_t i = 0; i < 8; i++)
 		std::cout << c[i] << std::endl;
+
+	// const char a[8] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
+	//
+	// std::cout << "original" << std::endl << std::endl;
+	// 
+	// for (size_t i = 0; i < 8; i++)
+	// 	std::cout << a[i] << std::endl;
+	// std::cout << std::endl;
+	// iter(a, 8, toUpper);
+	// std::cout << "post iter"<< std::endl;
+	// for (size_t i = 0; i < 8; i++)
+	// 	std::cout << a[i] << std::endl;
 }

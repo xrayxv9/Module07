@@ -41,5 +41,13 @@ int main()
 	std::cout << "original : " << tab[0] << std::endl;
 	std::cout << "modified : " << t[0] << std::endl;
 
+
+	// std::cout << std::endl << "CONST TESTS " << std::endl << std::endl;
+	// const Array<int> a(tab);
+	//
+	// a[0] = rand() % 1999;
+	//
+	// std::cout << a[0] << std::endl;
+
 	delete [] array;
 }

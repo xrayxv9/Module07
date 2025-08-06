@@ -14,7 +14,6 @@ void swap(T& first, T& second)
 }
 
 template< typename U >
-
 U min(U first, U second)
 {
 	return ( first >= second ? second : first);

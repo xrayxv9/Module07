@@ -36,6 +36,24 @@ class Array
 			}
 			throw NoSizeGivenException();
 		}
+		
+		const T &operator[](int index) const
+		{
+			unsigned int num = index;
+
+			if (_array && _size > 0)
+			{
+				if ( index < 0 )
+					throw IndexTooLowException();
+				if ( num >= _size )
+					throw IndexTooHighException();
+				else
+					return _array[index];
+			}
+			throw NoSizeGivenException();
+		}
+
+
 
 		Array &operator=( const Array &cpy )
 		{
